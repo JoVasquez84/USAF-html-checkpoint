@@ -1,0 +1,131 @@
+body {
+  background-color: yellow;
+}
+
+.top-nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.top-nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#GMDB {
+  font-size: 24px;
+}
+.top-nav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+.top-nav .search-container {
+  float: right;
+}
+
+.top-nav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #333;
+  font-size: 17px;
+  border: 2px solid orange;
+  cursor: pointer;
+  color: orange;
+  border-radius: 6px;
+}
+
+main .main-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 60px;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  margin-left: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container #login-password {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#login-email {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.container button {
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  margin-right: 16px;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 10px 10px;
+}
+
+.lower-nav {
+  margin-top: 12px;
+  background-color: grey;
+  color: orange;
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.lower-nav a {
+  float: left;
+  color: orange;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.movie-Picture {
+  width: 200px;
+  height: 300px;
+}
+
+.movie-Container {
+  float: right;
+  padding-top: 5%;
+  background-color: orange;
+}
+
+#commentLabel {
+  background-color: blue;
+  float: left;
+  margin-top: 70px;
+}
+#commentInput {
+  width: 500px;
+  float: left;
+  margin-top: 10px;
+}

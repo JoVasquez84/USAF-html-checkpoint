@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GMDB Homepage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav">
+        <a id="GMDB" href="#">GMDB</a>
+        <a href="#">Home</a>
+        <a href="login.html">Login</a>
+
+        <form class="search-container">
+          <input type="text" placeholder="Search" name="search" />
+          <button type="submit">Search</button>
+        </form>
+      </nav>
+    </header>
+    <nav class="lower-nav">
+      <a href="#">Back to results</a>
+    </nav>
+    <img
+      class="movie-Picture"
+      src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+      alt="Picture of The Godfather Movie"
+    />
+
+    <section class="movie-Container">
+      <h2 class="movie-Title">The Godfather</h2>
+      <h3 class="release-Date">Released Mar 24,1972</h3>
+      <p class="actor-Text">
+        Crime, Drama | Marlon Brando, Al Pacino, James Caan, Richard
+        S.Castellano
+      </p>
+      <br />
+      <p class="actor-Text">
+        The aging patriarch of an organized crime dynasty transfers control of
+        his clandestine empire to his reluctant son.
+      </p>
+    </section>
+    <form class="comment-Form">
+      <label for="commentBar" id="commentLabel">Leave a comment:</label>
+      <input type="text" name="commentBar" id="commentInput" />
+      <button class="submitCommentButton" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
